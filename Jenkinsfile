@@ -33,6 +33,7 @@ pipeline {
                 
                 sh '''
                 mvn clean compile
+                mvn package
                 '''             
           }
         }
