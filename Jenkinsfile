@@ -32,8 +32,7 @@ pipeline {
            steps {
                 
                 sh '''
-                mvn clean
-                mvn package
+                mvn clean compile
                 '''             
           }
         }
